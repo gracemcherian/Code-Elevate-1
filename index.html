@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <main>
+        <body style="background-color:darkred; color:rgb(255, 255, 255);">
+            <section>
+                <h1> Code Elevate Project</h1>
+                <h2>Oakton Community College</h2>
+                <h6> Grace Cherian</h6>
+                <p> Hello! This is my <em>first</em> website!</p>
+            </section>
+
+            <!--TODO: todo is a reminder to check before pushing-->
+
+            <section>
+                <!--This is an unordered list aka bullet points-->
+                <ul>
+                    <li>Coffee</li>
+                    <li>Boba</li>
+                    <li>Chai Tea</li>
+                </ul>
+
+                <!-- This gives an ordered list = numbered list-->
+                <ol>
+                    <li>Coffee</li>
+                    <li>Boba</li>
+                    <li>Chai Tea</li>
+                </ol>
+            </section>
+
+            <section>
+                <!-- attribute tag using href for link-->
+                <!--<a href="htps://ww.google.com"> Link to Google</a>-->
+            
+                <!--image with an absolute URL (does not need closing tag)-->
+                <!--img src="https://flxt.tmsimg.com/assets/p12991665_b_v13_am.jpg" width="310" height="413"-->
+                
+                <!--image using a relative URL(save in the same folder as project on computer and copy relative path)-->
+                <!--img src="p12991665_b_v13_am.jpg" width="310" height="413"-->
+            </section>
+
+            <section>
+                <!--nested element = clickable link on text-->
+                <!--<p> Click here to view more <a href=https://google.com>content</a></p>-->
+                
+                <!--how to make link on text open in a new tab-->
+                <p> Click here to view more <a target="_blank" href=https://google.com>content</a></p>
+
+                <!--how to make an image open a link when clicked-->
+                <figure>
+                    <a href="https://www.google.com" target="_blank"><img src="p12991665_b_v13_am.jpg" width="310" height="413" 
+                        alt="Stranger Things Season 4 Poster with Cast Members Walking into a Void"></a>
+                        <!--Add a caption-->
+                        <figcaption><strong>Stranger Things</strong> Season 4</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <form action="https://www.google.com">
+                    <fieldset>
+                        <legend> Who is your favorite character?</legend>
+                        <label><input id="nancy" type="radio" name="favorite-character" value="nancy" check="" >Nancy</label>
+                        <label><input id="eleven" type="radio" name="favorite-character" value="eleven">Eleven</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What's your favorite season?</legend>
+                        <input id="one" type="checkbox" name="favorite-season" value="one" check=""><label for="one">Season 1</label>
+                        <input id="two" type="checkbox" name="favorite-season" value="two"><label for="two">Season 2</label>
+                        <input id="three" type="checkbox" name="favorite-season" value="three"><label for="three">Season 3</label>
+                    </fieldset>
+
+                    <br>
+                    
+                    <input type="text" name="stranger-things-songs" placeholder="enter sranger things song" required="">
+                    <button type="submit">Submit</button>
+
+                </form>
+            </section>
+        </body> 
+    </main>
+    <footer>
+       <p>
+           No Copyright Code Elevate 2022
+       </p>
+    </footer>
+</html>
