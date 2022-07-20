@@ -1,11 +1,11 @@
 #id-a{
-    font-size:33px;
+    font-size:34px;
     width: 300px;
     margin-bottom: 5px;
 }
 #id-b{
     margin-top:5px;
-    font-size:23px;
+    font-size:22px;
     font-weight: 150px;
 }
 p{
@@ -13,10 +13,15 @@ p{
     margin-top: 5px;
 }
 #id-c{
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
-#id-d{
-    font-size:27px;
+.class-one{
+    font-size:29px;
     margin-bottom: 10px;
+   
 }
+figure{
+    margin-left: 0px;
+}
+
 
