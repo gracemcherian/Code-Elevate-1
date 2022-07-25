@@ -104,12 +104,14 @@ if (n == 22) {
     console.log("This number is 22");
 }
 console.log("This number is not 22");
+
 //if else statement
 if (n==23) {
     console.log("This number is 23");
 } else {
     console.log("This number is not 23");
 }
+
 //else if statement
 if(n==22){
     console.log("This number is 22");
