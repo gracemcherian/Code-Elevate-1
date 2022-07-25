@@ -57,7 +57,7 @@ let student="Sheetal";
 //let student="Asher";
 console.log(student);
 
-//Constant vairable can not be two
+//Constant variable can not be two
 const FAV_PET="Cats";
 //FAV_PET="Dogs";
 
@@ -95,3 +95,200 @@ console.log("this is m: " +m);
 let d=10;
 d/=2;
 console.log("this is d:" +d)
+
+/*
+// == is to check if it is really equal
+//if statement
+var n=24
+if (n == 22) {
+    console.log("This number is 22");
+}
+console.log("This number is not 22");
+//if else statement
+if (n==23) {
+    console.log("This number is 23");
+} else {
+    console.log("This number is not 23");
+}
+//else if statement
+if(n==22){
+    console.log("This number is 22");
+} else if (n==23) {
+    console.log ("This number is 23");
+} else {
+    console.log("This number is neither 22 or 23");
+}
+*/
+
+// 2 amper signs (&&) means also but 2 || means or
+var n=23
+if(n==22 || n==23) {
+    console.log("n is 22 or 23");
+} else {
+    console.log("n is neither 22 or 23");
+}
+
+//=== means strict check; number is equal sto a string not a number like in the if so it doesn't count
+var number="47";
+if (number===47) {
+    console.log ("checked: this number is 47");
+} else {
+    console.log("checked: this number isn't 47");
+}
+number++;
+number--;
+console.log(number);
+
+//concatenation of strings
+console.log("number = " +number);
+console.log("number is " +number + ".This number is prime");
+
+// greater than or equal to: >= or less than or equal to: <=
+var numCheck=20;
+if (number<=10) {
+    confirmlog("num is less than or equal to 10");
+}else if (number>=11){
+    console.log("num is greater than or equal to 11");
+} else {
+    console.log("this is not a number");
+}
+
+const PET="dog";
+if (PET === "lizard") {
+    console.log ("I own a lizard");
+} else if (PET === "dog") {
+    console.log ("I own a dog");
+} else if (PET === "cat") {
+    console.log ("I own a cat");
+} else if (PET === "snake") {
+    console.log ("I own a snake");
+} else if (PET === "bunny") {
+    console.log ("I own a bunny");
+}else if (PET === "fish") {
+    console.log ("I own a fish");
+} else {
+    console.log ("I don't own a pet");
+}
+
+//swtich statements are  more organized and easier to type is the same as ===
+switch(PET) {
+    case "lizard":
+        console.log("I own a lizard");
+        break;
+    case "dog":
+        console.log("I own a dog");
+        break;
+    case  "cat":
+        console.log("I own a cat");
+        break;
+    case "snake":
+        console.log("I own a snake");
+        break;
+    case "bunny":
+        console.log("I own a bunny");
+        break;
+    case "fish":
+        console.log("I own a bunny");
+        break;
+    default:
+        console.log("I don't own a pet");
+        break;
+}
+
+const COUNTRY="Ireland";
+switch(COUNTRY){
+    //grouping cases
+    case"France":
+    case"Spain":
+    case "Ireland":
+    case "Poland":
+        console.log("This country is in Europe");
+        break;
+    case"United States":
+        console.log("This country in in N. America")
+        break;
+    default:
+        console.log("This country is not in N. America or Europe");
+        break;
+}
+
+const ERRAND = "Going Shopping"
+//using curly braces to define let message multiple times = having a block scope
+switch (ERRAND) {
+    case "Going to the Dentist": {
+        let message = "I hate going to the dentist";
+        console.log(message);
+        break;
+    }
+    case "Going Shopping": {
+        let message = "I love to shop!";
+        console.log(message);
+        break;
+    }
+    case "Chores": {
+        let message = "I hate doing chores";
+        console.log(message);
+        break;
+    }
+    default: {
+        let message="No Errands"    
+        console.log (message);
+        break;
+    }
+}
+
+/*structure of a function
+function myFunction() {
+    //whatever code
+}
+*/
+
+//pop-up boxes
+function myFunction(/*no need for ERRAND because it is a global scope*/) {
+    //console.log(ERRAND);
+    //alert("I am an alert box"); alert only lets you click okay
+    /* confirm lets you click okay or cancel
+    var txt;
+    if (confirm("Press a button")){
+        txt = "You presed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+    */
+   //Prompts asks user to enter data and also gives ok or cancel
+   let text;
+   let person = prompt("Please enter your name", "Harry potter");
+   if (person == null || person == "") {
+       text = "User cancelled the prompt";
+   } else {
+       text = "Hello " + person +"! How are you today?";
+   }
+   document.getElementById("demo").innerHTML = text;
+}
+
+/*while loop
+var i = 0;
+console.log("Sarting Loop");
+while (i < 5) {
+    console.log("The number is " + i);
+    i++;
+}
+console.log("End of Loop");
+*/
+
+/*do while loop
+var i = 5;
+console.log("Starting Loop");
+do {
+    console.log("The number is " + i);
+    i--;
+} while (i > 0);
+*/
+
+var count;
+console.log("Starting Loop");
+for(count = 0; count < 10; count++) {
+    console.log("Current Count: " + count);
+}
+console.log("Loop has stopped!");
