@@ -1,3 +1,22 @@
 body{
     text-align: center;
 }
+#id-a{
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+#id-b{
+    margin-top: 5px;
+    margin-bottom:20px;
+}
+.li {
+    display: inline;
+    text-align: center;
+}
+
+.ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}

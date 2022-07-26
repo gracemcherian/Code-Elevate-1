@@ -245,8 +245,8 @@ function myFunction() {
 }
 */
 
-//pop-up boxes
-function myFunction(/*no need for ERRAND because it is a global scope*/) {
+//pop-up boxes : alert, confirm, or prompt
+function myFunction() {
     //console.log(ERRAND);
     //alert("I am an alert box"); alert only lets you click okay
     /* confirm lets you click okay or cancel
@@ -294,3 +294,70 @@ for(count = 0; count < 10; count++) {
     console.log("Current Count: " + count);
 }
 console.log("Loop has stopped!");
+
+// [] mean array, arrays make listing strings easier
+var fruits = ["apple", "strawberry", "pineapple", "starfruit", "mango", "peaches", "passionfruit", "banana"];
+// first item is index 0
+console.log(fruits[0] + " is the first fruit")
+console.log(fruits[1] + " is the second fruit");
+console.log(fruits[2] + " is the third fruit")
+
+var i;
+for (i=0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+let text = "<ul>";
+fruits.forEach(FruitFunction);
+text += "</ul>";
+document.getElementById("fruitText").innerHTML = text;
+
+function FruitFunction(value) {
+    text += "<li>" + value + "</li>";
+}
+
+let counterHTML = document.getElementById("counterId");
+console.log(counterHTML);
+let totalCount = 0;
+function increaseCount() {
+    totalCount += 1;
+    counterHTML.textContent = totalCount;
+}
+
+function decreaseCount() {
+    totalCount -= 1;
+    counterHTML.textContent = totalCount;
+}
+
+function resetCount() {
+    totalCount = 0;
+    counterHTML.textContent = totalCount
+}
+
+function changeBackgroundColor(color) {
+    document.body.style.backgroundColor = color;
+
+    if (color=="white") {
+        document.body.style.color = "black";
+    }
+    if (color=="black") {
+        document.body.style.color = "white";
+    }
+}
+let result = document.getElementById("result")
+console.log(result);
+let counter = "";
+let w=0;
+function sequenceNumbers() {
+    let number = document.getElementById("numberId").value;
+
+    let increase = document.getElementById("increaseId").value;
+
+    let max = parseInt(increase) +parseInt(number) + 1;
+
+    for(w = ++number; w < max; w++) {
+        counter +=w;
+        counter += " ";
+    }
+    result.textContent = counter
+}

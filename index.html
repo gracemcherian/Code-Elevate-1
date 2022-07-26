@@ -3,7 +3,7 @@
     <main>
         <head>
             <link href="styles/styles.css" rel="stylesheet">
-            <script src="scripts/javascript.js"></script>
+            
             <title> Code Elevate Website</title>
         </head>
         <body style="background-color:darkred; color:rgb(255, 255, 255);">
@@ -12,6 +12,51 @@
                 <h2>Oakton Community College</h2>
                 <h6 style="background-color:purple"> Grace Cherian</h6>
                 <p id="my-id">Hello! This is my <em>first</em> website!</p>
+            </section>
+            <section>
+                <button onclick=changeBackgroundColor("blue")>
+                    blue
+                </button>
+                <button onclick=changeBackgroundColor("white")>
+                    white
+                </button>
+                <button onclick=changeBackgroundColor("green")>
+                    green
+                </button>
+                <button onclick=changeBackgroundColor("black")>
+                    black
+                </button>
+                <button onclick=changeBackgroundColor("cyan")>
+                    cyan
+                </button>
+            </section>
+            <section>
+                <p id="fruitText"></p>
+
+                <div id="counterId">
+                    0
+                </div>
+                <button onclick=decreaseCount()>
+                    -
+                </button>
+                <button onclick=increaseCount()>
+                    +
+                </button>
+                <button onclick=resetCount()>
+                    reset
+                </button>
+            </section>
+            <br>
+            <section>
+                <form>
+                    <label>Number:</label><br>
+                    <input type="text" id="numberId"><br>
+                    <label> Increase By:</label><br>
+                    <input type="text" id="increaseId"><br><br>
+                    <input type="button" value="Enter" onclick="sequenceNumbers()">
+                </form>
+                <div id="result"></div>
+                <script src="scripts/javascript.js"></script>
             </section>
 
             <!--TODO: todo is a reminder to check before pushing-->
@@ -95,7 +140,6 @@
                 <p id="demo">This is just text</p>
             </section>
             
-
         </body> 
     </main>
     <footer>
