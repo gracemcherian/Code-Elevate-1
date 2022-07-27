@@ -50,7 +50,7 @@ a:hover{
     row-gap:1px;
     border:2px solid orange;
     border-radius: 5px;
-    background-color: rgb(255, 174, 251);
+    background-color:rgb(203, 203, 252);
 }
 .one,.two,.three{
     border: 2px solid black;
