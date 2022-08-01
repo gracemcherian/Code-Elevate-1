@@ -1,5 +1,17 @@
+.hdr{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0px;
+    height: 100px;
+    font-size: 250%;
+    align-content: center;
+}
+
 body{
     text-align: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 #id-a{
     font-size: 300%;
