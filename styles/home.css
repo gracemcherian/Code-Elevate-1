@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#id-a{
+    font-size: 300%;
+    margin-bottom: 5px;
+}
+#id-b{
+    font-size: 210%;
+    margin-top: 5px;
+    margin-bottom:20px;
+}
+figure {
+    margin-top: 10px;
+    font-size: 120%;
+}
+p {
+    
+    font-size: 150%;
+    margin-left: 15%;
+    margin-right: 15%;
+}

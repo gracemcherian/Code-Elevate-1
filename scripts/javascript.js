@@ -52,14 +52,16 @@ var camper= "Sheetal";
 var camper= "Asher";
 console.log(camper);
 
-//let will only take one defined, so if two it will create error
+//let will only take one defined, so if two it will create error but remove let and i works
 let student="Sheetal";
 //let student="Asher";
+student="Grace";
 console.log(student);
 
-//Constant variable can not be two
+//Constant variable can not be two, capitals
 const FAV_PET="Cats";
 //FAV_PET="Dogs";
+//FAV_PET="Fish";
 
 //can do math equations in constant
 const SUM=10+10;
@@ -98,14 +100,14 @@ console.log("this is d:" +d)
 
 /*
 // == is to check if it is really equal
-//if statement
+//if statement: when true, it will print both
 var n=24
 if (n == 22) {
     console.log("This number is 22");
 }
 console.log("This number is not 22");
 
-//if else statement
+//if else statement: only prints one
 if (n==23) {
     console.log("This number is 23");
 } else {
@@ -130,13 +132,14 @@ if(n==22 || n==23) {
     console.log("n is neither 22 or 23");
 }
 
-//=== means strict check; number is equal sto a string not a number like in the if so it doesn't count
+//=== means strict check; 47 is equal to a string since its in quotes, not a number like in the condition, so it doesn't count
 var number="47";
 if (number===47) {
     console.log ("checked: this number is 47");
 } else {
     console.log("checked: this number isn't 47");
 }
+number++;
 number++;
 number--;
 console.log(number);
@@ -269,7 +272,7 @@ function myFunction() {
    document.getElementById("demo").innerHTML = text;
 }
 
-/*while loop
+//while loop
 var i = 0;
 console.log("Sarting Loop");
 while (i < 5) {
@@ -277,17 +280,17 @@ while (i < 5) {
     i++;
 }
 console.log("End of Loop");
-*/
 
-/*do while loop
+
+//do while loop
 var i = 5;
 console.log("Starting Loop");
 do {
     console.log("The number is " + i);
     i--;
 } while (i > 0);
-*/
 
+//for loop
 var count;
 console.log("Starting Loop");
 for(count = 0; count < 10; count++) {

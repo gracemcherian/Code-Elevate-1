@@ -2,14 +2,12 @@ body{
     text-align: center;
 }
 #id-a{
-    font-size: 300%;
-    margin-bottom: 5px;
+    font-size: 350%;
+    margin-bottom: 15px;
+    text-decoration-line:underline;
+    
 }
-#id-b{
-    font-size: 210%;
-    margin-top: 5px;
-    margin-bottom:20px;
-}
+
 p {
     
     font-size: 150%;
@@ -19,7 +17,7 @@ p {
 .class-a{
     font-size: 240%;
     margin-bottom: 5px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 figure {
     margin-top: 10px;
