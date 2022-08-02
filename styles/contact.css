@@ -1,0 +1,27 @@
+.hdr{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0px;
+    height: 100px;
+    font-size: 270%;
+    align-content: center;
+}
+#button {
+    color: white;
+    background-color: transparent;
+    font-size: 75%;
+    border-color: transparent;
+    cursor: pointer;
+}
+#button:hover {
+    transform: translate(0,-3px);
+    font-size: 130%;
+    transition: background-size 2 seconds linear;
+    text-decoration: underline;
+}
+body{
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}

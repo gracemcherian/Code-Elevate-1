@@ -5,6 +5,7 @@
     height: 100px;
     font-size: 250%;
     align-content: center;
+    
 }
 
 body{
@@ -31,4 +32,17 @@ p {
     font-size: 150%;
     margin-left: 15%;
     margin-right: 15%;
+}
+#button {
+    color: white;
+    background-color: transparent;
+    font-size: 75%;
+    border-color: transparent;
+    cursor: pointer;
+}
+#button:hover {
+    transform: translate(0,-3px);
+    font-size: 130%;
+    transition: background-size 2 seconds linear;
+    text-decoration: underline;
 }
