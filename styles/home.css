@@ -3,37 +3,13 @@
     grid-template-columns: repeat(4,1fr);
     gap: 0px;
     height: 100px;
-    font-size: 250%;
-    align-content: center;
-    
-}
-
-body{
-    text-align: center;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-#id-a{
     font-size: 300%;
-    margin-bottom: 5px;
-}
-#id-b{
-    font-size: 210%;
-    margin-top: 5px;
-    margin-bottom:20px;
-}
-figure {
-    margin-top: 10px;
-    font-size: 120%;
-}
-p {
-    
-    font-size: 150%;
-    margin-left: 15%;
-    margin-right: 15%;
+    line-height: 100px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #button {
+    font-family:'Times New Roman', Times, serif;
     color: white;
     background-color: transparent;
     font-size: 75%;
@@ -45,4 +21,18 @@ p {
     font-size: 130%;
     transition: background-size 2 seconds linear;
     text-decoration: underline;
+}
+body{
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+h1 {
+    font-size: 400%;
+   margin-top: 50px;
+}
+h2 {
+    font-size: 350%;
+
 }
