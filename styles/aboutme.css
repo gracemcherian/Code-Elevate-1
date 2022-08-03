@@ -32,6 +32,7 @@ h1 {
     font-size: 350%;
     margin-bottom: 10px;
     text-decoration-style: dotted;
+    text-decoration-color: rgb(255,255,200);
     text-decoration-line: underline;
 
 }

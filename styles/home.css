@@ -28,11 +28,29 @@ body{
     margin-left: 0%;
     margin-right: 0%;
 }
-h1 {
-    font-size: 400%;
-   margin-top: 50px;
+h1{
+    font-size: 600%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(255,255,200);
 }
-h2 {
-    font-size: 350%;
-
+p {
+    font-size: 300%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 400%;
+}
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 100px;
+    border:2px solid rgb(255, 255, 200);
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 5%;
+    margin-bottom: 5%
 }

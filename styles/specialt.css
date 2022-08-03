@@ -33,6 +33,7 @@ body{
     margin-bottom: 20px;
     text-decoration-line: underline;
     text-decoration-style: dotted;
+    text-decoration-color: rgb(255,255,200);
 }
 p {
     
@@ -47,6 +48,7 @@ p {
     margin-top: 65px;
     text-decoration-style: dotted;
     text-decoration-line:underline;
+    text-decoration-color: rgb(255,255,200);
 }
 figure {
     margin-top: 10px;
