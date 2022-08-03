@@ -28,8 +28,22 @@ body{
     margin-left: 0%;
     margin-right: 0%;
 }
+h1 {
+    font-size: 350%;
+    margin-bottom: 10px;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+
+}
+.aboutme {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    font-size: 200%;
+    background-color: transparent;
+    margin-top: 40px;
+}
 p {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 150%;
+    margin-top: 0px;
+    margin-left: 140px;
 }
