@@ -3,6 +3,7 @@
     <main>
         <head>
             <link href="styles/contact.css" rel="stylesheet">
+            <script src="scripts/conact.js"></script>
             <div class="hdr" style="background-color:rgb(245, 245, 167) ;">
                 <div> <a href="C:\Users\stdtemp\Documents\code-elevate-1\home.html"><button id="button">Home</button></a></div>
                 <div> <a href="C:\Users\stdtemp\Documents\code-elevate-1\specialt.html"><button id="button">Smoothie Recipes</button></a></div>
@@ -12,15 +13,15 @@
         </head>
         <body style="background-color:rgb(203, 203, 252); color:rgb(255, 255, 255);">
             <h1>Contact Us</h1>
-            <div class="contact">
-                <div>
+            <ul>
+                    <li>
                     <h3>Questions?</h2>
                     <h2>Comments?</h2>
                     <h2>Concerns?</h2>
                     <h2>We'd Love to Hear Them</h2>
                     <p>Maintaining contact with you is crucial to us, so please, ask us anything. </p>
-                </div>
-                <div>
+                    </li>
+                    <li>
                     <form>
                         <input id="flname" type="text" name="first-last-name" placeholder="First and Last Name" required="">
                         <br>
@@ -31,10 +32,10 @@
                         <textarea rows="10" column="60" id="message" name="message" placeholder="Your questions, comments, concerns" required=""></textarea>
                         <br>
                         <br>
-                        <button type="submit">Submit</button>
+                        <button type="submit" onclick=myFunction()>Submit</button>
                     </form>
-                </div>
-            </div>
+                </li>
+            </ul>
         </body>
     </main>
 </html>

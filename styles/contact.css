@@ -42,7 +42,6 @@ h2{
     margin-top: 15px;
 }
 h3 {
-    margin-top: 100px;
     text-align: left;
     margin-left: 350px;
     font-size: 250%;
@@ -54,15 +53,17 @@ p {
     margin-left: 350px;
     width: 450px;
 }
-.contact {
+ul {
     display: grid;
-    grid-template-columns: 1fr , 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    margin-top: 100px;
 
 }
 form {
     text-align: right;
     margin-right:350px;
+    padding-top: 45px;
 }
 #flname {
     width: 300px;

@@ -255,7 +255,7 @@ function myFunction() {
     /* confirm lets you click okay or cancel
     var txt;
     if (confirm("Press a button")){
-        txt = "You presed OK!";
+        txt = "You pressed OK!";
     } else {
         txt = "You pressed Cancel!";
     }
