@@ -1,4 +1,4 @@
 
-var myFunction="You Have Succesfully Sent Your Message";
-    alert(myFunction);
-
+function myFunction() {
+    alert("You Have Successfully Sent Your Message");
+}
